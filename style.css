@@ -1,0 +1,11 @@
+/* STYLE */
+
+.recipe-box {
+    color: crimson;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.title {
+    color: crimson;
+}
