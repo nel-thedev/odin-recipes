@@ -1,18 +1,27 @@
 /* STYLE */
 
+* {
+    background-color: bisque;
+}
+
 .recipe-box {
-    color: gray;
-    border-style: solid;
-    border-radius: 5px;
-    align-items: center;
+    background-color: rgba(183, 173, 160, 0.30);
+    border-radius: 20px;
+    image-rendering: auto;
+    margin: 15px;
 }
 
 img {
     height: 200px;
     width: 300px;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .title {
-    color: crimson;
+    color: rgb(47, 47, 47);
+}
+
+.recipe-box.link {
+    color: transparent;
 }
