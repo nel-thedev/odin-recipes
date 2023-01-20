@@ -4,24 +4,34 @@
     background-color: bisque;
 }
 
+main {
+    display: flex;
+}
+
 .recipe-box {
     background-color: rgba(183, 173, 160, 0.30);
     border-radius: 20px;
     image-rendering: auto;
     margin: 15px;
+    display: inline-block;
 }
 
 img {
     height: 200px;
     width: 300px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: transparent;
+    display: flex;
 }
 
 .title {
     color: rgb(47, 47, 47);
+    text-align: center;
 }
 
-.recipe-box.link {
+p.recipe-link {
     color: transparent;
+    text-align: center;
+    background-color: transparent;
 }
