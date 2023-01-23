@@ -11,9 +11,8 @@ main {
 .recipe-box {
     background-color: rgba(183, 173, 160, 0.30);
     border-radius: 20px;
-    image-rendering: auto;
     margin: 15px;
-    display: inline-block;
+    flex: 1;
 }
 
 img {
@@ -22,7 +21,6 @@ img {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     background-color: transparent;
-    display: flex;
 }
 
 .title {
@@ -30,7 +28,7 @@ img {
     text-align: center;
 }
 
-p.recipe-link {
+.recipe-link {
     color: transparent;
     text-align: center;
     background-color: transparent;
